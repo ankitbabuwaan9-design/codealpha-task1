@@ -1,8 +1,10 @@
 # 🎮 Hangman Game
 
-A simple console-based Hangman Game developed in Python as part of the **CodeAlpha Python Programming Internship**.
+A simple and interactive **Console-Based Hangman Game** developed using **Python**. This project was created as part of the **CodeAlpha Python Programming Internship**.
 
-This project follows the internship instructions by using a **predefined list of words**. **No API, database, or file handling is used.**
+The game randomly selects a word from a predefined list, and the player has to guess the word one letter at a time before running out of lives.
+
+> **Note:** This project uses only Python built-in modules (`random` and `os`). No API, file handling, database, or external libraries are used.
 
 ---
 
@@ -12,12 +14,11 @@ This project follows the internship instructions by using a **predefined list of
 - 🔤 Guess one letter at a time
 - ❤️ 6 Lives System
 - 💀 ASCII Hangman Drawing
-- 🎨 Colorful Console Interface
 - ✅ Input Validation
 - 🚫 Duplicate Letter Detection
 - 🔄 Play Again Option
-- ❌ No API Used
-- ❌ No File Handling Used
+- 🖥️ Console-Based Interface
+- ⚡ Beginner Friendly
 
 ---
 
@@ -26,13 +27,12 @@ This project follows the internship instructions by using a **predefined list of
 - Python 3
 - random (Built-in Module)
 - os (Built-in Module)
-- colorama (For Colored Console Output)
 
 ---
 
 ## 📂 Project Structure
 
-```text
+```
 Hangman_Game/
 │
 ├── hangman.py
@@ -44,13 +44,9 @@ Hangman_Game/
 ## ▶️ How to Run
 
 1. Install Python 3.
-2. Install Colorama:
-
-```bash
-pip install colorama
-```
-
-3. Run the game:
+2. Download or clone the project.
+3. Open the project folder.
+4. Run the following command:
 
 ```bash
 python hangman.py
@@ -60,23 +56,42 @@ python hangman.py
 
 ## 🎮 How to Play
 
-- The computer randomly selects a word from a predefined list.
-- Guess one letter at a time.
-- Correct guesses reveal letters.
-- Wrong guesses reduce one life.
-- You have only **6 lives**.
+- The computer randomly selects a word.
+- The player guesses one letter at a time.
+- Correct letters are revealed in the word.
+- Each incorrect guess reduces one life.
+- The player has a maximum of **6 incorrect guesses**.
 - Guess the complete word before all lives are lost.
+
+---
+
+## 📸 Sample Output
+
+```
+==================================================
+              HANGMAN GAME
+==================================================
+
+Lives : ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
+
+Word : _ _ _ _ _ _
+
+Guessed Letters : None
+
+Enter a letter :
+```
 
 ---
 
 ## 🚫 Project Constraints
 
-This project is developed according to the CodeAlpha internship guidelines.
+This project follows the CodeAlpha internship guidelines.
 
-- No API used
-- No File Handling used
-- No Database used
-- Uses only a predefined list of words
+- ✅ No API Used
+- ✅ No File Handling Used
+- ✅ No Database Used
+- ✅ No External Libraries Used
+- ✅ Uses Only Python Built-in Modules
 
 ---
 
@@ -99,3 +114,9 @@ This project is developed according to the CodeAlpha internship guidelines.
 **Ankit Kumar Singh**
 
 Python Programming Intern – CodeAlpha
+
+---
+
+## 📜 License
+
+This project is developed for educational and internship purposes.
